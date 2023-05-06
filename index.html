@@ -1,24 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>My First Web Pages</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML, CSS" />
+    <meta
+      name="description"
+      content="This is a sample page created by Frank Berrocal"
+    />
+    <title>Document</title>
     <style>
-      img {
-        width: 100px;
-        border-radius: 50%;
-        /*Set the radius to half the size to make it circular.  Image should be a square.*/
-        float: left;
-        margin-right: 5%;
+      video {
+        width: 400px;
       }
-
-      .username {
-        font-weight: bold;
+      ul {
+        list-style: none;
       }
     </style>
   </head>
   <body>
-    <img src="images/bazooka-gi-joe-football-jersey.multi.jpeg" alt="Bazooka" />
-    <p class="username">@FranBerrocal</p>
-    <p>I love to learn how to program Java</p>
+    <a href="company/about.html">About</a>
+    <a href="company/container.html">Containers</a>
+    <a href="company/semantic.html">Semantic</a>
+    <a href="/company/structure.html">Structure</a>
+    <ol>
+      <li>buy ingredients</li>
+      <li>mix</li>
+      <li>cook</li>
+    </ol>
+    <dl>
+      <dt>Gato</dt>
+      <dd>Animalito peludo de cuatro patas y coqueto</dd>
+    </dl>
+    <br />
+    <br />
+    <video controls src="videos/cars.mp4"></video>
+    <br />
+    <video src="videos/ocean.mp4" autoplay loop>
+      Video not supported browser
+    </video>
+    <br />
+    <audio
+      controls
+      loop
+      src="audio/Jem & The Holograms - Our Love Makes You Beautiful (HQ) (128kbit_AAC) [music].mp3"
+    >
+      Audio not supported by browser
+    </audio>
+    <br />
   </body>
 </html>

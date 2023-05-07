@@ -40,3 +40,43 @@
   a[href*="structure"]{
     color: orange;
   }
+
+  #section-products p{
+    color:blue;
+  }
+
+  p::first-letter{
+    font-weight: bold;
+    font-size: 140%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+  }
+
+  ::selection{
+    background-color: green;
+  }
+  
+  p::first-line{
+    font-weight: bold;
+  }
+
+  h2{
+    color: blue;
+  }
+
+  .h2-light{
+    color: green;
+  }
+
+  #h2-high{
+
+  color: greenyellow;
+  }
+
+  .h2-light#h2-high{
+    color: red;
+  }
+
+  h2.h2-light#h2-high{
+    color: blueviolet;
+  }

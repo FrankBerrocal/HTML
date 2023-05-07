@@ -1,0 +1,22 @@
+ p{
+    color: orange;
+ }
+ #p-second{
+    color: aquamarine;
+ }
+ video {
+    width: 400px;
+  }
+  ul {
+    list-style: none;
+  }
+  .product {
+    background-color: gold;
+    width: 300px;
+  }
+  .highlight {
+    background-color: aqua;
+  }
+  img-cat {
+    width: 300px;
+  }

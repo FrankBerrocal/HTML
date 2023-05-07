@@ -1,3 +1,7 @@
+ body{
+  margin: 10px;
+ }
+ 
  p{
     color: orange;
  }
@@ -19,4 +23,20 @@
   }
   img-cat {
     width: 300px;
+  }
+
+  a[href*="about"]{
+    color: blue;
+  }
+
+  a[href*="container"]{
+    color: green;
+  }
+
+  a[href*="semantic"]{
+    color: yellow;
+  }
+
+  a[href*="structure"]{
+    color: orange;
   }
